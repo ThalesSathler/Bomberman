@@ -1049,9 +1049,16 @@ void anima_explo()
 }
 void passa_fase()
 {
+    conta_ponto(5,0);
+  	conta_ponto(5,0);
     fase+=1;
     telajogo=0;
     telafase=1;
+    contI[0]=0;
+    contI[1]=0;
+    contI[2]=0;
+    contI[3]=0;
+    contI[4]=0;
     pega_mapa();
 }
 void anima_bomba()
